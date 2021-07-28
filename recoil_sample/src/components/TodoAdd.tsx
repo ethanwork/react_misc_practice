@@ -10,6 +10,8 @@ const TodoAdd = () => {
 
   return (
     <>
+      User Unfinished Items: {info.loginNotCompleted}
+      <br />
       Total Items: {info.total}
       <br />
       Finished Items: {info.completed}
